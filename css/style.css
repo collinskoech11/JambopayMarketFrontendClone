@@ -481,13 +481,147 @@ body{
 	width: 198px;
 	float: left;
 }
+.category-2:hover{
+	background-color: rgb(32,17,48);
+	color: #fff;
+	height: 30px;
+}
 .category-3{
 	width: 202px;
 	float: left;
+}
+.category-3:hover{
+	background-color: rgb(32,17,48);
+	color: #fff;
+	height: 30px;
 }
 .category-2 p{
 	margin-top: 5px;
 }
 .category-3 p{
 	margin-top: 5px;
+}
+
+
+/**product line / item**/
+
+.product-l1{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.line{
+	width: 100%;
+	height: auto;
+}
+.item{
+	width: 300px;
+	height: 350px;
+	border:1px solid rgb(0,0,0,0.05);
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+.item:hover img{
+	transform: scale(1.2);
+	overflow: hidden;
+}
+.item img{
+	height: 350px;
+	width: 300px;
+	z-index: -3;
+}
+.item-1{
+	width: 300px;
+	height: 350px;
+	border:1px solid rgb(0,0,0,0.05);
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+.item-1:hover img{
+	transform: scale(1.2);
+	overflow: hidden;
+}
+.item-1 img{
+	height: 350px;
+	width: 300px;
+	z-index: -3;
+}
+.item-2{
+	width: 300px;
+	height: 350px;
+	border:1px solid rgb(0,0,0,0.05);
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+.item-2:hover img{
+	transform: scale(1.2);
+	overflow: hidden;
+}
+.item-2 img{
+	height: 350px;
+	width: 300px;
+	z-index: -3;
+}
+.item-3{
+	width: 300px;
+	height: 350px;
+	border:1px solid rgb(0,0,0,0.05);
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+.item-3:hover img{
+	transform: scale(1.2);
+	overflow: hidden;
+}
+.item-3 img{
+	height: 350px;
+	width: 300px;
+	z-index: -3;
+}
+.item-text{
+	background-color: gray;
+	width: 100px;
+	align-items: center;
+	text-align: center;
+	margin-top: -50px;
+	margin-left: 40px;
+	color: #fff;
+	z-index: 4;
+}
+.item .item-text{
+	width:150px;
+	z-index: 4;
+}
+.item-3 .item-text{
+	width: 150px;
+	z-index: 4;
+	color: black;
+}
+.item-1 .item-text{
+	background-color: gray;
+	z-index: 4;
+	color: black;
+}
+
+
+/**product line 2**/
+
+.product-item{
+	width: 300px;
+	height: 350px;
+	border:1px solid rgb(0,0,0,0.05);
+	float: left;
+	margin-left: 15px;
 }
