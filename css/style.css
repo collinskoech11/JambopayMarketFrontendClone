@@ -19,7 +19,6 @@ body{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	align-items: center;
-	position: fixed;
 }
 .topbar a{
 	padding-left: 15px;
@@ -699,4 +698,57 @@ body{
 	float: right;
 	width: 50px;
 	height: 20px;
+}
+
+
+/**extension**/
+
+
+.extension{
+	width: 100%;
+	align-items: center;
+}
+.extension  .more{
+	width: 150px;
+	height: 30px;
+	margin-left: 600px;
+	margin-right: 600px;
+	background-color: rgb(32,17,48);
+	color: #fff;
+	cursor: pointer;
+}
+.extension .more p{
+	color: #fff;
+	padding: 2px;
+	padding-top: 7px;
+	padding-left: 15px;
+	margin-top: 10px;
+}
+/**most viewed**/
+.most-viewed .title{
+	width: 100%;
+	text-align: left;
+	border-bottom: 3px solid rgb(250,150,11);
+}
+.most-viewed .title p{
+	color: rgb(32,17,48);
+	margin-bottom: 1px;
+	font-size: 25px;
+}
+
+
+/**product w-5**/
+
+.most-viewed .product-item{
+	width: 220px;
+}
+.most-viewed .product-item img{
+	width: 220px;
+}
+.most-viewed .purchase{
+	width: 220px;
+}
+.most-viewed .product-item .comm img{
+	width: 25px;
+	height: 25px;
 }
