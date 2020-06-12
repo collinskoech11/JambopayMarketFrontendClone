@@ -43,6 +43,7 @@ body{
 	padding: 2px;
 	float: left;
 	text-decoration: none;
+	margin-top: 3px;
 
 }
 .sellers{
@@ -50,6 +51,7 @@ body{
 	display: inline-block;
 	text-align: left;
 	padding: 2px;
+	margin-top: 5px;
 
 }
 .delivery{
@@ -58,6 +60,7 @@ body{
 	text-align: right;
 	float: right;
 	margin-right: 30px;
+	margin-top:-15px;
 	/**padding: 2px;**/
 }
 
@@ -95,10 +98,11 @@ body{
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	float: left;
-	
 }
 .header .search .category p{
-	padding-bottom: 10px;
+	margin-top: 9px;
+	padding-bottom: 25px;
+	margin-bottom: 5px;
 	padding-left:  10px;
 	align-items: center;
 }
@@ -219,6 +223,7 @@ body{
 .navbar .categories:hover{
 	background-color: #fff;
 	color: rgb(100,0,150);
+	cursor: pointer;
 }
 .navbar .tokens{
 	float: left;
@@ -228,9 +233,13 @@ body{
 	padding-bottom: 5px;
 	padding-left: 10px;
 }
+.navbar .sub-menu-1{
+	background-color: #fff;
+}
 .navbar .tokens:hover{
 	background-color: #fff;
 	color: rgb(0,0,0);
+	cursor: pointer;
 }
 .navbar .water{
 	float: left;
@@ -243,6 +252,7 @@ body{
 .navbar .water:hover{
 	background-color: #fff;
 	color: rgb(0,0,0);
+	cursor: pointer;
 }
 .navbar .airtime{
 	float: left;
@@ -255,6 +265,7 @@ body{
 .navbar .airtime:hover{
 	background-color: #fff;
 	color:rgb(0,0,0);
+	cursor: pointer;
 }
 .navbar .sub-menu-1{
 	display: none;
@@ -273,19 +284,37 @@ body{
 	text-decoration: none;
 	margin-bottom: 2px;
 }
+.navbar .sub-menu-2 a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+	margin-bottom: 2px;
+}
+
 .navbar .categories:hover .sub-menu-1{
 	display:block;
 	position: absolute;
 	background:#fff;
+}.navbar .categories:hover .sub-menu-2{
+	display: none;
 }
 .navbar .water:hover .sub-menu-1{
 	display:block;
 	position: absolute;
-	background:#fff;
 	margin-top: 12px;
 }
 .navbar li:hover{
 	background-color: rgb(0,0,0,0.05);
+}
+.food .sub-menu-2{
+	display: none;
+}
+.food:hover .sub-menu-2{
+	position:absolute;
+	display: block;
+	z-index: 5;
+}
+.household .sub-menu-2{
+	display: none;
 }
 .navbar .contact{
 	float: right;
@@ -321,23 +350,92 @@ body{
 }
 .marketting .sub-img{
 	float: right;
-	width: 330px;
+	width: 300px;
 	display: block;
 	height: 500px;
-	overflow: hidden;
+	padding-right: 20px;
+	margin-right: 15px;
+	margin-top: 20px;
 }
 .marketting .sub-img-1{
 	width: 330px;
 	border-radius: 15px;
 	height: 230px;
+	overflow: hidden;
+	margin-bottom: 5px;
+	border:1px solid rgb(0,0,0,0.05);
+}
+.marketting .sub-img-1:hover .img-text{
+	cursor: pointer;
+	background-color: rgb(0,0,0,);
 }
 .marketting .sub-img-2{
 	width: 330px;
 	border-radius: 15px;
 	height: 230px;
+	overflow: hidden;
+	border:1px solid rgb(0,0,0,0.05);
 }
 .marketting .sub-img img{
 	height: 230px;
 	width: 330px;
+	border-radius: 15px;
+}
+.marketting .img-text{
+	margin-top: -230px;
+	padding-left: 10px;
+	width:330px;
+	height: 230px;
+}
+.marketting .img-text:hover{
+	background-color: rgb(0,0,0,0.5);
+}
+.marketting .img-text text{
+	font-size: 15px;
+	font-weight: bold;
+}
+.marketting .img-text h4{
+	font-weight: bold;
+}
+.marketting .sub-img-1 p{
+	color: #fff;
+	font-weight: bold;
+}
+.marketting .sub-img-1 h4{
+	color: #fff;
+}
+.marketting .sub-img-2  p{
+	font-weight: bold;
+}
 
+
+/**Service**/
+
+.service{
+	width: 100%;
+	height: 95px;
+	background-color: rgb(100,0,150);
+	display: inline-block;
+	color: #fff;
+}
+.service-min{
+	width:25%;
+	float: left;
+}
+.service-img{
+	float: left;
+	padding: 5px
+}
+.service-text{
+	float:left;
+	padding:5px;
+}
+.service img{
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
+	padding-right: 20px;
+}
+.service .affordable{
+	margin-left: 25px;
 }
