@@ -741,6 +741,7 @@ body{
 
 .most-viewed .product-item{
 	width: 220px;
+	overflow: hidden;
 }
 .most-viewed .product-item img{
 	width: 220px;
