@@ -407,6 +407,12 @@ body{
 .marketting .sub-img-2  p{
 	font-weight: bold;
 }
+.slideshow{
+	z-index: -3;
+}
+.slideshow img{
+	z-index: -3;
+}
 
 
 /**Service**/
@@ -627,6 +633,7 @@ body{
 	float: left;
 	margin-left: 15px;
 	font-family: sans-serif;
+	border-radius: 3px;
 }
 .product-item .item-img img{
 	width: 300px;
@@ -714,6 +721,7 @@ body{
 	margin-left: 600px;
 	margin-right: 600px;
 	background-color: rgb(32,17,48);
+	border-radius: 5px;
 	color: #fff;
 	cursor: pointer;
 }
@@ -729,6 +737,7 @@ body{
 	width: 100%;
 	text-align: left;
 	border-bottom: 3px solid rgb(250,150,11);
+	margin-bottom: 20px;
 }
 .most-viewed .title p{
 	color: rgb(32,17,48);
@@ -740,16 +749,28 @@ body{
 /**product w-5**/
 
 .most-viewed .product-item{
-	width: 220px;
+	width: 230px;
 	overflow: hidden;
 }
 .most-viewed .product-item img{
-	width: 220px;
+	width: 230px;
 }
 .most-viewed .purchase{
-	width: 220px;
+	width: 230px;
 }
 .most-viewed .product-item .comm img{
 	width: 25px;
 	height: 25px;
+}
+.most-viewed .product-item .essential{
+
+}
+.most-viewed .product-item .comm {
+	margin-top: -25px;
+}
+.most-viewed .product-item .essential .cart-add{
+	margin-top: 10px;
+}
+.most-viewed .product-l1{
+	margin-bottom: 15px;
 }
