@@ -638,10 +638,15 @@ body{
 	margin-left: 15px;
 	font-family: sans-serif;
 	border-radius: 3px;
+	overflow: hidden;
 }
 .product-item .item-img img{
 	width: 300px;
 	height:300px;
+}
+.product-item .item-img img:hover{
+	transform: scale(1.2);
+	transition: 2s;
 }
 .product-item .item-desc{
 	width: 300px;
@@ -670,6 +675,7 @@ body{
 	width: 80px;
 	height: 25px;
 	border-radius: 5px;
+	cursor: pointer;
 }
 .cart-add p{
 	margin-top: 5px;
@@ -684,6 +690,7 @@ body{
 .product-item .comm img{
 	width: 25px;
 	height: 25px;
+	cursor: pointer;
 }
 .comm .like{
 	float: left;
