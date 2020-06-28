@@ -63,6 +63,41 @@ body{
 	margin-top:-15px;
 	/**padding: 2px;**/
 }
+@media(max-width: 1200px){
+	.topbar{
+		font-size: 10px;
+	}
+	.topbar img{
+		width: 8px;
+		height: 8px;
+	}
+	.home{
+		width: 45%;
+	}
+	.sellers{
+		width: 35%;
+	}
+	.delivery{
+		width: 19%; 
+		margin-right: 0;
+		margin-top: 5px;
+	}
+}
+@media(max-width: 500px){
+	.topbar{
+		font-size:7px;
+	}
+	.home{
+		width: 50%;
+	}
+	.sellers{
+		width: 39%
+	}
+	.delivery{
+		width: 10%;
+		margin-top: -15px;	
+	}
+}
 
 /**header**/
 .header{
