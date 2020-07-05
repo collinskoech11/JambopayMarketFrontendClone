@@ -230,7 +230,20 @@ body{
 .cart:hover .cart-img{
 	background-color: rgb(0,0,150);
 }
+@media(max-width: 1200px){
+	.header .jamboimg{
 
+	}
+	.header .search{
+
+	}
+	.header .user{
+
+	}
+	.header .cart{
+		
+	}
+}
 
 /**navbar**/
 
