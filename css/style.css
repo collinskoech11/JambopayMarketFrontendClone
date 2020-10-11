@@ -5,6 +5,7 @@ body{
 	max-width: 1322px;
 	margin: 0;
 	padding: 0;
+        box-sizing:border-box;
 }
 
 /**topbar**/
